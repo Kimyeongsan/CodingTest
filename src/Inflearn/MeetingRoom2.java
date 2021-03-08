@@ -5,6 +5,19 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
+
+class Interval{
+	int start, end;
+	Interval(){
+		this.start =0;
+		this.end =0;
+	}
+	Interval(int s, int e){
+		this.start = s;
+		this.end = e;
+	}
+}
+
 public class MeetingRoom2 {
 	
 	public static void main(String[] args) {
@@ -53,16 +66,4 @@ public class MeetingRoom2 {
 			return o1.start - o2.start;
 		}
 	};
-}
-
-class Interval{
-	int start, end;
-	Interval(){
-		this.start =0;
-		this.end =0;
-	}
-	Interval(int s, int e){
-		this.start = s;
-		this.end = e;
-	}
 }
