@@ -1,5 +1,6 @@
 package Progremerse.Level1;
 
+//Çà·ÄÀÇ µ¡¼À
 public class Procession {
 	public int[][] solution(int[][] arr1, int[][] arr2) {
 
@@ -12,5 +13,4 @@ public class Procession {
 		}
 		return answer;
 	}
-
 }

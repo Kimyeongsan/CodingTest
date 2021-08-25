@@ -3,6 +3,7 @@ package Progremerse.Level1;
 import java.util.Arrays;
 import java.util.Scanner;
 
+//x만큼 간격이 있는 n개의 숫자
 public class Multiplication {
     public long[] solution(long x, int n) {
         long[] answer = new long[n];
