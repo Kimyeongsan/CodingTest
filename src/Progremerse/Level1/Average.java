@@ -2,6 +2,7 @@ package Progremerse.Level1;
 
 import java.util.Scanner;
 
+// 평균값 구하기
 public class Average {
     public double solution(int[] arr) {
         double answer = 0;
