@@ -3,6 +3,7 @@ package Progremerse.Level1;
 import java.util.HashMap;
 import java.util.Map;
 
+// 숫자와 단어
 public class NumAndWords {
 	
     public int solution(String s) {
