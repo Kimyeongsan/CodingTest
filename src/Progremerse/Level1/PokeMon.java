@@ -3,6 +3,7 @@ package Progremerse.Level1;
 import java.util.HashSet;
 import java.util.Scanner;
 
+// ÆùÄÏ¸ó
 public class PokeMon {
 
 	public int solution(int[] nums) {
