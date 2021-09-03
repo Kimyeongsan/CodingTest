@@ -7,7 +7,6 @@ public class SkillTree {
 			for (int i = 0; i < skill_trees.length; i++) {
 				
 				// Skill = C B A 
-				
 				String[] str = skill_trees[i].split("");  // B . A . C . D . E
 				int next = 0;
 				boolean ck = true;
