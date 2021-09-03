@@ -8,11 +8,9 @@ public class FindKim {
         
         for(int i = 0; i < seoul.length; i++) {
             if(seoul[i] == "Kim") {
-                result = i;
+            	answer = "김서방은" + result + "에 있다.";
             }
         }
-        
-        answer = "김서방은" + result + "에 있다.";
         
         return answer;
     }
