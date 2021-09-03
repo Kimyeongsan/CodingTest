@@ -1,36 +1,43 @@
 package Progremerse.Level1;
 
-import java.util.Scanner;
-
+// 제일작은수 제거
 public class MostSmall {
 	
     public int[] solution(int[] arr) {
-        int[] answer = {};
+        if(arr.length == 1){
+            int[] answer = {-1};
+            
+            return answer;
+        }
+    	
+        int[] answer = new int[arr.length - 1];  // 4 , 3 , 2 , 1
+        int small = arr[0];
         
-        for(int i = 0; i < arr.length; i++) {
-            if(arr[i] < arr[i + 1]) {
-  
-            }
+        for(int i = 0; i < arr.length; i++) {  
+        	small = Math.min(small, arr[i]); // 가장 작은 수 구하기
         }
         
+        System.out.println("가장 작은 수 : " + small);
         
+        for(int j = 0; j < arr.length; j++) {
+        	if(small == arr[j]) {
+        		continue;
+        	}
+        	answer[j] += arr[j];
+        	
+        	System.out.println("배열 : " + answer[j]);
+        }
+
         return answer;
     }
 	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int[] names = new int[4];
+		MostSmall m = new MostSmall();
 		
-		Average result = new Average();
+		int[] arr = {4, 3, 2, 1};
 		
-		Scanner sc = new Scanner(System.in);
-
-		for (int i = 0; i < names.length; i++) {
-			names[i] = sc.nextInt();
-		}
-		
-		System.out.print(result.solution(names));
+		m.solution(arr);
 	
 	}
 

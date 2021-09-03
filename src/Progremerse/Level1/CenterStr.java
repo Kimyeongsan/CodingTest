@@ -9,7 +9,7 @@ public class CenterStr {
         	
         	int i = (s.length() / 2) - 1; // (4 / 2) - 1
         	
-        	answer = s.substring(i, i + 2);  // 1  , 2
+        	answer = s.substring(i, i + 2);  // 1  , 3
         	
         } else {
         	int j = s.length() / 2;

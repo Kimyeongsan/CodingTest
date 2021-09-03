@@ -2,6 +2,8 @@ package Progremerse.Level1;
 
 import java.util.Arrays;
 
+
+// 완주하지 못한자
 public class PlayersNotComplete {
 
 	public String solution(String[] participant, String[] completion) {
