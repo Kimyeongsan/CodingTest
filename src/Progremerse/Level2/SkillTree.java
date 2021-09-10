@@ -8,6 +8,7 @@ public class SkillTree {
 				
 				// Skill = C B A 
 				String[] str = skill_trees[i].split("");  // B . A . C . D . E
+				
 				int next = 0;
 				boolean ck = true;
 				
@@ -20,6 +21,7 @@ public class SkillTree {
 					else if (next == skill.indexOf(str[j])) { // °°´Ù¸é
 						next++;
 					}
+					
 				}
 				
 				if (ck) {

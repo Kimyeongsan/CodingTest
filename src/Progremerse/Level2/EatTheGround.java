@@ -2,6 +2,7 @@ package Progremerse.Level2;
 
 public class EatTheGround {
    int hopscotch(int[][] land, int n) {
+	   
       int answer = 0;
       int[][] dx = { { 1, 2, 3 }, { -1, 1, 2 }, { -2, -1, 1 }, { -3, -2, -1 } };
 
@@ -17,6 +18,8 @@ public class EatTheGround {
             answer = land[n - 1][i];
          }
       }
+      
+      //  
 
       return answer;
    }
