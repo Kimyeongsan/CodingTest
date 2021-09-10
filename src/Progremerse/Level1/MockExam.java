@@ -8,7 +8,6 @@ public class MockExam {
 	
     public static int[] solution(int[] answers) {
     	
-    	   
         int[] a = {1, 2, 3, 4, 5};
         int[] b = {2, 1, 2, 3, 2, 4, 2, 5};
         int[] c = {3, 3, 1, 1, 2, 2, 4, 4, 5, 5};
@@ -17,19 +16,16 @@ public class MockExam {
         
         for(int i = 0; i < answers.length; i++) {
         	
-        	// 1, 2, 3, 4, 5 : 1  2  3  4  5
         	System.out.println(answers[i] == b[i % b.length]);
         	
         	if(answers[i] == a[i % a.length]) {
         		score[0]++;
         	}
-        	
-        	// 2, 1, 2, 3, 2 "4  2  5" : 1  2  3  4  5 "1 2 3"
+        
         	if(answers[i] == b[i % b.length]) {
         		score[1]++;
         	}
-        	
-        	// 3, 3, 1, 1, 2, " 2, 4, 4, 5, 5 ": 1  2  3  4  5 "1  2  3  4  5"
+
         	if(answers[i] == c[i % c.length]) {
         		score[2]++;
         	}
