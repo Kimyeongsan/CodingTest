@@ -1,8 +1,8 @@
 package Progremerse.Level1;
 
-
 import java.util.Stack;
 
+//크레인 인형뽑기 문제
 public class Crane {
 
     public static int solution(int[][] board, int[] moves) {
