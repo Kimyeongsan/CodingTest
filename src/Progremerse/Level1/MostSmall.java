@@ -27,7 +27,6 @@ public class MostSmall {
         	
         	System.out.println("¹è¿­ : " + answer[j]);
         }
-
         return answer;
     }
 	
