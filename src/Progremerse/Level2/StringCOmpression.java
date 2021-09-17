@@ -1,11 +1,12 @@
 package Progremerse.Level2;
 
-public class StringCOmpression {
+// 문자열 압축
+public class StringCompression {
 
 	public static int solution(String s) {
 
-		//	s : aabbaccc
-		int answer = s.length();
+		//	s : aabbaccc  : 초기 문자열의 길이
+		int answer = s.length(); 
 
 		for (int n = 1; n <= s.length() / 2; n++) {
 			StringBuilder temp = new StringBuilder();

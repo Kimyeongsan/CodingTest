@@ -6,6 +6,7 @@ import java.util.List;
 // 모의고사
 public class MockExam {
 	
+	// 입력 값 : 1, 3, 2, 4, 2
     public static int[] solution(int[] answers) {
     	
         int[] a = {1, 2, 3, 4, 5};
@@ -15,8 +16,6 @@ public class MockExam {
         int[] score = new int[3];
         
         for(int i = 0; i < answers.length; i++) {
-        	
-        	System.out.println(answers[i] == b[i % b.length]);
         	
         	if(answers[i] == a[i % a.length]) {
         		score[0]++;
