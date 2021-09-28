@@ -1,6 +1,6 @@
 package Progremerse.Level1;
 
-
+// 서울에서 김서방 찾기..
 public class FindKim {
     public String solution(String[] seoul) {
         String answer = "";

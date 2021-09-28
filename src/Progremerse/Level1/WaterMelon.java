@@ -2,7 +2,6 @@ package Progremerse.Level1;
 
 import java.util.Scanner;
 
-
 // 수박수박수박수박?
 public class WaterMelon {
 
