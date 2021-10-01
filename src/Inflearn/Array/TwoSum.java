@@ -3,6 +3,7 @@ package Inflearn.Array;
 import java.util.HashMap;
 import java.util.Map;
 
+// 두개의 합
 public class TwoSum {
 
 	public int[] solve(int[] nums, int target) {
@@ -14,6 +15,7 @@ public class TwoSum {
 		for (int i = 0; i < nums.length; i++) {
 			if (map.containsKey(nums[i])) {
 				int mapValue = map.get(nums[i]); // i=1일때 8 , map(8,0)
+				
 				result[0] = mapValue + 1; // 1
 				result[1] = i + 1; // 2
 
