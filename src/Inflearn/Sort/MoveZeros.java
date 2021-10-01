@@ -1,4 +1,4 @@
-package Inflearn;
+package Inflearn.Sort;
 
 /*
 * time complexity of O(n logn n) 
