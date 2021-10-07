@@ -2,6 +2,7 @@ package Progremerse.Level1;
 
 import java.util.*;
 
+// 3진수 바꾸기
 public class ThreeNotation {
     public int solution(int n) {
         int answer = 0;
