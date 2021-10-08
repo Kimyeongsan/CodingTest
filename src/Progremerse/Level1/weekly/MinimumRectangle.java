@@ -1,6 +1,6 @@
 package Progremerse.Level1.weekly;
 
-// 최소직사각형
+// 8주차 : 최소직사각형
 public class MinimumRectangle {
 	public int solution(int[][] sizes) {
         int max = 0;
