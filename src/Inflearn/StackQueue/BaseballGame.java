@@ -1,4 +1,4 @@
-package Inflearn;
+package Inflearn.StackQueue;
 
 import java.util.*;
 

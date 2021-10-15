@@ -10,14 +10,9 @@ public class InputStar {
     	System.out.print("Çà °¹¼ö : ");
         int a = sc.nextInt();
         
-    	System.out.print("¿­ °¹¼ö : ");
-        int b = sc.nextInt();
-        
-        for(int i = 0; i < b; i++) {
-            for(int j = 0; j < a; j++) {
-                System.out.print("*");
-            } 
-            System.out.print("\n");
+        for(int i = 0; i < a; i++) {
+
+            System.out.print("*");
         }
     }
 }
