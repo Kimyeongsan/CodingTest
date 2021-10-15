@@ -17,6 +17,8 @@ public class KthLargest {
 		for(int i : nums) {
 			pq.offer(i);
 			
+			System.out.println(pq);
+			
 			// k = 2 : 즉 2개만 들고 간다 
 			if(pq.size() > k) {
 				pq.poll();
