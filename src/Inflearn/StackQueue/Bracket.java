@@ -21,8 +21,6 @@ public class Bracket {
 			} else {
 				return false;
 			}
-			
-			System.out.println(stack);
 		}
 	
 		return stack.empty();
